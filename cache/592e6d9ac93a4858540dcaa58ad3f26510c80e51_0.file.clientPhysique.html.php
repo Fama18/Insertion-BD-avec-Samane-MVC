@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-08-04 11:38:25
+/* Smarty version 3.1.30, created on 2020-08-05 10:19:24
   from "C:\xampp\htdocs\projet_samane\samane\src\view\physique\clientPhysique.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f292c91e34318_36487265',
+  'unifunc' => 'content_5f2a6b8cd5ede9_34928962',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '592e6d9ac93a4858540dcaa58ad3f26510c80e51' => 
     array (
       0 => 'C:\\xampp\\htdocs\\projet_samane\\samane\\src\\view\\physique\\clientPhysique.html',
-      1 => 1596533905,
+      1 => 1596615479,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f292c91e34318_36487265 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f2a6b8cd5ede9_34928962 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <!doctype html>
@@ -118,6 +118,5 @@ public/image/logo bancaire.jpg" id="img1" />
 public/js/app.js"><?php echo '</script'; ?>
 >
     </body>
-</html>
-<?php }
+</html><?php }
 }

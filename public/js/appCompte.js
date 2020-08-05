@@ -14,7 +14,7 @@ document.getElementById("field4").style.display = "none";
 function testCompte() {
 let typeCompte = document.getElementById("typeCompte");
 
-if(typeCompte.selectedIndex == 1) {
+if(typeCompte.value == "CESX") {
     document.getElementById("h").style.display = "";
     document.getElementById("fraisCompte").style.display = "";
     document.getElementById("labfrais").style.display = "";
@@ -33,7 +33,7 @@ if(typeCompte.selectedIndex == 1) {
 
 
 }
-else if(typeCompte.selectedIndex == 2) {
+else if(typeCompte.value == "CCS") {
     document.getElementById("infoSupp").style.display = "";
     document.getElementById("field4").style.display = "";
     document.getElementById("h").style.display = "none";
@@ -47,7 +47,7 @@ else if(typeCompte.selectedIndex == 2) {
     document.getElementById("labEch").style.display = "none";
     document.getElementById("DateEcheance").style.display = "none";
 }
-else if(typeCompte.selectedIndex == 3) {
+else if(typeCompte.value == "CB") {
     document.getElementById("h").style.display = "";
     document.getElementById("fraisCompte").style.display = "";
     document.getElementById("labfrais").style.display = "";
@@ -80,7 +80,7 @@ let form2 = document.getElementById("form2").addEventListener("submit", function
     let ValidcleRib = /^[0-9\s]+$/;
 
 
-    if(typeCompte.selectedIndex == 1) {
+    if(typeCompte.value == "CESX") {
 
             if(NumAgence.value.trim() == "") {
             ev.preventDefault();
@@ -139,7 +139,7 @@ let form2 = document.getElementById("form2").addEventListener("submit", function
         }
     }
 
-    if(typeCompte.selectedIndex == 2) {
+    if(typeCompte.value == "CCS") {
         if(NumAgence.value.trim() == "") {
             ev.preventDefault();
             alert("Veuillez renseigner le numero de l'agence");
@@ -261,7 +261,7 @@ let form2 = document.getElementById("form2").addEventListener("submit", function
         }
     }
 
-    if(typeCompte.selectedIndex == 3) {
+    if(typeCompte.value == "CB") {
 
         if(NumAgence.value.trim() == "") {
         ev.preventDefault();
@@ -346,7 +346,7 @@ let form_Employeur = document.getElementById("form_Employeur").addEventListener(
     let ValidNumIdent = /^[a-zA-Z0-9-\s]+$/;
     let ValidAdresse = /^[a-zA-Z0-9-\s]+$/;
 
-    if(typeCompte.selectedIndex == 2) {
+    if(typeCompte.value == "CCS") {
 
                             if(nomEmployeur.value.trim() == "") {
                                 e.preventDefault();
